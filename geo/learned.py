@@ -28,11 +28,12 @@ def create_learned_svg(args):
 
     for country in get_learned_countries():
         p = f".//ns0:g[@id='{country}']"
-        print(p)
         for group in xml_root.findall(
                 p, namespaces={'ns0': "http://www.w3.org/2000/svg"}):
             for el in group.iter():
                 el.set("fill", "orange")
+        else:
+            print(f"Failed to find {country}: {p}")
 
     xml_root.write(os.path.join(
         os.path.dirname(__file__),
