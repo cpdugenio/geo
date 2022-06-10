@@ -262,4 +262,5 @@ PERSONAL_MAPPING = {
     "Palestine": "Palestinian Territory, Occupied",
     "Iran": "Iran, Islamic Republic of",
     "Czechia": "Czech Republic",
+    "Holy See": "Holy See (Vatican City State)",
 }
