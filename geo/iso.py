@@ -261,4 +261,5 @@ PERSONAL_MAPPING = {
     "Syria": "Syrian Arab Republic",
     "Palestine": "Palestinian Territory, Occupied",
     "Iran": "Iran, Islamic Republic of",
+    "Czechia": "Czech Republic",
 }
