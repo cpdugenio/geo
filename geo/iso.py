@@ -237,21 +237,18 @@ ISO_TO_COUNTRY = {
     "EH": "Western Sahara",
     "YE": "Yemen",
     "ZM": "Zambia",
-    "ZW": "Zimbabwe"
+    "ZW": "Zimbabwe",
+    "RS": "Serbia",
+    "ME": "Montenegro",
+    "XK": "Kosovo",
 }
 
 COUNTRY_TO_ISO = {
     v: k for k, v in ISO_TO_COUNTRY.items()
 }
 
-UNRECOGNIZED = (
-    "Kosovo",
-    "Montenegro",
-)
-
 PERSONAL_MAPPING = {
     "North Macedonia": "Macedonia, the Former Yugoslav Republic of",
-    "Serbia": "Serbia and Montenegro",
     "Laos": "Lao People's Democratic Republic",
     "Vietnam": "Viet Nam",
     "Brunei": "Brunei Darussalam",

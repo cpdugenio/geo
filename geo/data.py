@@ -2,7 +2,7 @@ import os
 import pprint
 import requests
 
-from .iso  import COUNTRY_TO_ISO, PERSONAL_MAPPING, UNRECOGNIZED
+from .iso  import COUNTRY_TO_ISO, PERSONAL_MAPPING
 
 TOKEN = os.environ['NOTION_TOKEN']
 DATABASE_ID = 'f526009c2f05441497796059cf1a228c'
@@ -37,7 +37,6 @@ def get_learned_countries():
     return [
         COUNTRY_TO_ISO[
             PERSONAL_MAPPING.get(country, country)
-        ].lower()
+        ]
         for country in countries
-        if country not in UNRECOGNIZED
     ]

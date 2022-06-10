@@ -4,7 +4,7 @@ Helper scripts for importing and exporting from Notion re: Countries Geographica
 
 ## Ext
 
-- [flekschas/simple-world-map](https://github.com/flekschas/simple-world-map)
+- [raphaellepuschitz/SVG-World-Map](https://github.com/raphaellepuschitz/SVG-World-Map)
 - [List of countries: JSON](https://gist.github.com/djaiss/2938259?permalink_comment_id=916871#gistcomment-916871)
 
 ## Usage
