@@ -14,8 +14,9 @@ with open(WORLD_MAP_JSON_PATH) as f:
     WORLD_MAP_JSON = json.load(f)
 
 COUNTRY_TO_ISO = {
-    v['name']: k
+    name: k
     for k, v in WORLD_MAP_JSON.items()
+    for name in (v['name'], v.get('altnames')) if name
 }
 
 PERSONAL_MAPPING = {

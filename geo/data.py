@@ -42,9 +42,11 @@ def get_learned_countries():
     """
     db_entries = _get_database_entries()
     countries = [
-        title['plain_text']
+        ''.join(
+            title['plain_text']
+            for title in row['properties']['Country']['title']
+        )
         for row in db_entries
-        for title in row['properties']['Country']['title']
     ]
     isos = []
     for country in countries:
