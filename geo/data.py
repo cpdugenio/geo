@@ -42,7 +42,7 @@ def get_learned_countries():
     """
     db_entries = _get_database_entries()
     countries = [
-        title['plain_text'].split(' (')[0]
+        title['plain_text']
         for row in db_entries
         for title in row['properties']['Country']['title']
     ]

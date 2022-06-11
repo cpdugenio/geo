@@ -19,5 +19,5 @@ COUNTRY_TO_ISO = {
 }
 
 PERSONAL_MAPPING = {
-    "East Timor": "Timor-Leste (East Timor)",
+    "Holy See (Vatican City)": "Holy See",
 }
