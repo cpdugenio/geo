@@ -8,9 +8,22 @@ Helper scripts for importing and exporting from Notion re: Countries Geographica
 
 ## Usage
 
+Populate your `.SECRET`
+
+```
+echo ${NOTION_INTEGRATION_SECRET} > .SECRET
+```
+
+Set up venv
+
 ```
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-env NOTION_TOKEN=SECRET_NOTION_TOKEN python -m geo learned
+```
+
+Execute
+
+```
+make learned  # builds learned.svg with map of learned countries
 ```
