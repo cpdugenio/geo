@@ -9,18 +9,30 @@ DATABASE_ID = 'f526009c2f05441497796059cf1a228c'
 REQUEST_URL = f'https://api.notion.com/v1/databases/{DATABASE_ID}/query'
 
 def _get_database_entries():
-    response = requests.post(
-        REQUEST_URL,
-        headers={
-            "Authorization": f'Bearer {TOKEN}',
-            "Notion-Version": "2022-02-22",
-        }
-    )
-    response_json = response.json()
-    if 'status' in response_json:
-        raise RuntimeError(response_json)
+    has_more = True
+    start_cursor = None
+    results = []
+    while has_more:
+        data = {}
+        if start_cursor:
+            data['start_cursor'] = start_cursor
+        response = requests.post(
+            REQUEST_URL,
+            headers={
+                "Authorization": f'Bearer {TOKEN}',
+                "Notion-Version": "2022-02-22",
+            },
+            json=data
+        )
+        response_json = response.json()
+        if 'status' in response_json:
+            raise RuntimeError(response_json)
 
-    return response_json['results']
+        results.extend(response_json['results'])
+        has_more = response_json['has_more']
+        start_cursor = response_json['next_cursor']
+
+    return results
 
 def get_learned_countries():
     """Returns list of countries in ISO code that is learned.
