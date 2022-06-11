@@ -4,6 +4,15 @@ import xml.etree.ElementTree as ET
 
 from .data import get_learned_countries
 
+
+PATHS_TO_REMOVE = (
+    "./ns0:rect[@id='World']",
+    "./ns0:path[@id='Ocean']",
+    "./ns0:g[@id='labels']",
+    "./ns0:g[@id='AQ']",
+)
+
+
 def create_learned_svg(args):
     xml_root = ET.parse(
         os.path.join(
@@ -16,15 +25,11 @@ def create_learned_svg(args):
         )
     )
 
-    for el in xml_root.findall(
-            "./ns0:rect[@id='World']",
-            namespaces={'ns0': "http://www.w3.org/2000/svg"}):
-        xml_root.find('.').remove(el)
-
-    for el in xml_root.findall(
-            "./ns0:path[@id='Ocean']",
-            namespaces={'ns0': "http://www.w3.org/2000/svg"}):
-        xml_root.find('.').remove(el)
+    for path in PATHS_TO_REMOVE:
+        for el in xml_root.findall(
+                path,
+                namespaces={'ns0': "http://www.w3.org/2000/svg"}):
+            xml_root.find('.').remove(el)
 
     for country in get_learned_countries():
         p = f".//ns0:g[@id='{country}']"

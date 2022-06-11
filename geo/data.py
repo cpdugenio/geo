@@ -34,9 +34,15 @@ def get_learned_countries():
         for row in db_entries
         for title in row['properties']['Country']['title']
     ]
-    return [
-        COUNTRY_TO_ISO[
-            PERSONAL_MAPPING.get(country, country)
-        ]
-        for country in countries
-    ]
+    isos = []
+    for country in countries:
+        try:
+            isos.append(
+                COUNTRY_TO_ISO[
+                    PERSONAL_MAPPING.get(country, country)
+                ]
+            )
+        except KeyError as e:
+            print(f"Failed to get iso for {country}")
+            raise e
+    return isos
