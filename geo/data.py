@@ -14,6 +14,12 @@ if not TOKEN:
     except:
         raise RuntimeError("Failed to get Notion integration token")
 
+ANKI_DB_COL_COUNTRY = 'Country'
+ANKI_DB_COL_TAGS = 'Tags'
+ANKI_DB_COL_TITLE = 'title'
+ANKI_DB_KEY_NAME = 'name'
+
+
 def _get_database_entries():
     has_more = True
     start_cursor = None
@@ -40,6 +46,38 @@ def _get_database_entries():
 
     return results
 
+
+def _get_row_title(row):
+    """Get row plain text title.
+
+    Returns:
+        str
+
+    """
+    return ''.join(
+        title['plain_text']
+        for title in row['properties'][ANKI_DB_COL_COUNTRY][ANKI_DB_COL_TITLE]
+    )
+
+
+def get_country_groupings():
+    """Returns dict from country grouping to list of countries.
+
+    Returns:
+        dict[str, list[str]]
+
+    """
+    db_entries = _get_database_entries()
+    country_groupings = {}
+    for row in db_entries:
+        country = _get_row_title(row)
+        for tag in row['properties'][ANKI_DB_COL_TAGS]['multi_select']:
+            tag_name = tag[ANKI_DB_KEY_NAME]
+            country_groupings.setdefault(tag_name, []).append(country)
+
+    return country_groupings
+
+
 def get_learned_countries():
     """Returns list of countries in ISO code that is learned.
 
@@ -47,13 +85,7 @@ def get_learned_countries():
         list[str]
     """
     db_entries = _get_database_entries()
-    countries = [
-        ''.join(
-            title['plain_text']
-            for title in row['properties']['Country']['title']
-        )
-        for row in db_entries
-    ]
+    countries = [_get_row_title(row) for row in db_entries]
     isos = []
     for country in countries:
         try:

@@ -1,0 +1,20 @@
+(9) Southern Africa (Kalahari);<ul><li>South Africa</li><li>Eswatini</li><li>Lesotho</li><li>Zambia</li><li>Zimbabwe</li><li>Namibia</li><li>Malawi</li><li>Botswana</li><li>Mozambique</li></ul>
+(15) Western Africa (Niger);<ul><li>Cabo Verde</li><li>Togo</li><li>Côte d'Ivoire</li><li>Liberia</li><li>Nigeria</li><li>Guinea</li><li>Benin</li><li>Sierra Leone</li><li>Ghana</li><li>Guinea-Bissau</li><li>Senegal</li><li>Gambia</li><li>Niger</li><li>Mali</li><li>Burkina Faso</li></ul>
+(9) Central Africa (Congo);<ul><li>Congo</li><li>Angola</li><li>Gabon</li><li>Democratic Republic of the Congo</li><li>Sao Tome and Principe</li><li>Equatorial Guinea</li><li>Chad</li><li>Central African Republic</li><li>Cameroon</li></ul>
+(12) Eastern Africa (Nile);<ul><li>Burundi</li><li>Uganda</li><li>Somalia</li><li>Djibouti</li><li>Kenya</li><li>Rwanda</li><li>Tanzania</li><li>Madagascar</li><li>Ethiopia</li><li>South Sudan</li><li>Sudan</li><li>Eritrea</li></ul>
+(7) Northern Africa (Sahara);<ul><li>Mauritania</li><li>Western Sahara</li><li>Algeria</li><li>Morocco</li><li>Tunisia</li><li>Libya</li><li>Egypt</li></ul>
+(10) Western Europe;<ul><li>Andorra</li><li>Netherlands</li><li>Monaco</li><li>France</li><li>Belgium</li><li>Luxembourg</li><li>Liechtenstein</li><li>Austria</li><li>Switzerland</li><li>Germany</li></ul>
+(10) Southern Europe;<ul><li>Andorra</li><li>Holy See</li><li>San Marino</li><li>Portugal</li><li>Malta</li><li>Italy</li><li>Spain</li><li>Greece</li><li>Cyprus</li><li>Turkey</li></ul>
+(11) Northern Europe;<ul><li>Greenland</li><li>Iceland</li><li>Norway</li><li>Ireland</li><li>United Kingdom</li><li>Denmark</li><li>Sweden</li><li>Finland</li><li>Lithuania</li><li>Latvia</li><li>Estonia</li></ul>
+(5) Nordic;<ul><li>Iceland</li><li>Norway</li><li>Denmark</li><li>Sweden</li><li>Finland</li></ul>
+(9) Central Europe;<ul><li>Czechia</li><li>Liechtenstein</li><li>Poland</li><li>Austria</li><li>Switzerland</li><li>Hungary</li><li>Slovakia</li><li>Germany</li><li>Slovenia</li></ul>
+(11) Balkan States;<ul><li>Slovenia</li><li>Greece</li><li>Albania</li><li>Kosovo</li><li>Bulgaria</li><li>North Macedonia</li><li>Montenegro</li><li>Bosnia and Herzegovina</li><li>Romania</li><li>Serbia</li><li>Croatia</li></ul>
+(4) Post-Soviet European States;<ul><li>Ukraine</li><li>Moldova</li><li>Russia</li><li>Belarus</li></ul>
+(3) Baltic States;<ul><li>Lithuania</li><li>Latvia</li><li>Estonia</li></ul>
+(11) Southeast Asia;<ul><li>Laos</li><li>Singapore</li><li>Malaysia</li><li>Thailand</li><li>Viet Nam</li><li>Cambodia</li><li>Brunei</li><li>Indonesia</li><li>Timor-Leste (East Timor)</li><li>Philippines</li><li>Myanmar</li></ul>
+(8) East Asia;<ul><li>Mongolia</li><li>South Korea</li><li>Japan</li><li>Hong Kong</li><li>Macao</li><li>Taiwan</li><li>North Korea</li><li>China</li></ul>
+(9) CIS: Commonwealth of Independent States;<ul><li>Moldova</li><li>Russia</li><li>Belarus</li><li>Uzbekistan</li><li>Tajikistan</li><li>Kyrgyzstan</li><li>Kazakhstan</li><li>Armenia</li><li>Azerbaijan</li></ul>
+(8) South Asia;<ul><li>India</li><li>Maldives</li><li>Nepal</li><li>Bhutan</li><li>Sri Lanka</li><li>Bangladesh</li><li>Afghanistan</li><li>Pakistan</li></ul>
+(7) -Stan;<ul><li>Uzbekistan</li><li>Tajikistan</li><li>Afghanistan</li><li>Kyrgyzstan</li><li>Turkmenistan</li><li>Pakistan</li><li>Kazakhstan</li></ul>
+(17) Middle East;<ul><li>Yemen</li><li>Syria</li><li>Oman</li><li>Lebanon</li><li>Qatar</li><li>Kuwait</li><li>Israel</li><li>United Arab Emirates</li><li>Egypt</li><li>Bahrain</li><li>Saudi Arabia</li><li>Iraq</li><li>Jordan</li><li>Palestine</li><li>Iran</li><li>Cyprus</li><li>Turkey</li></ul>
+(3) Caucasus;<ul><li>Georgia</li><li>Armenia</li><li>Azerbaijan</li></ul>
