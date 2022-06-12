@@ -25,5 +25,6 @@ pip install -r requirements.txt
 Execute
 
 ```
+make anki     # builds groupings.txt with country groupings for anki import
 make learned  # builds learned.svg with map of learned countries
 ```
