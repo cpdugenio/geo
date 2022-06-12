@@ -4,9 +4,15 @@ import requests
 
 from .iso  import COUNTRY_TO_ISO, PERSONAL_MAPPING
 
-TOKEN = os.environ['NOTION_TOKEN']
 DATABASE_ID = 'f526009c2f05441497796059cf1a228c'
 REQUEST_URL = f'https://api.notion.com/v1/databases/{DATABASE_ID}/query'
+TOKEN = os.environ.get('NOTION_TOKEN')
+if not TOKEN:
+    try:
+        with open(os.path.join(os.path.dirname(__file__), '..', '.SECRET')) as f:
+            TOKEN = f.read().strip()
+    except:
+        raise RuntimeError("Failed to get Notion integration token")
 
 def _get_database_entries():
     has_more = True

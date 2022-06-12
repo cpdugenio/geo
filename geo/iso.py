@@ -2,12 +2,12 @@ import json
 import os
 
 WORLD_MAP_JSON_PATH = os.path.join(
-        os.path.dirname(__file__),
-        "..",
-        "ext",
-        "SVG-World-Map",
-        "src",
-        "country-data.json"
+    os.path.dirname(__file__),
+    "..",
+    "ext",
+    "SVG-World-Map",
+    "src",
+    "country-data.json"
 )
 
 with open(WORLD_MAP_JSON_PATH) as f:
