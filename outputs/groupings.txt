@@ -1,3 +1,6 @@
+(13) South America;<ul><li>Uruguay</li><li>Peru</li><li>Paraguay</li><li>Argentina</li><li>Chile</li><li>Bolivia</li><li>Brazil</li><li>Ecuador</li><li>Venezuela</li><li>Guyana</li><li>Suriname</li><li>French Guiana</li><li>Colombia</li></ul>
+(3) The Guyanas;<ul><li>Guyana</li><li>Suriname</li><li>French Guiana</li></ul>
+(7) Central America;<ul><li>Belize</li><li>Costa Rica</li><li>Panama</li><li>Guatemala</li><li>Honduras</li><li>Nicaragua</li><li>El Salvador</li></ul>
 (9) Southern Africa (Kalahari);<ul><li>South Africa</li><li>Eswatini</li><li>Lesotho</li><li>Zambia</li><li>Zimbabwe</li><li>Namibia</li><li>Malawi</li><li>Botswana</li><li>Mozambique</li></ul>
 (15) Western Africa (Niger);<ul><li>Cabo Verde</li><li>Togo</li><li>Côte d'Ivoire</li><li>Liberia</li><li>Nigeria</li><li>Guinea</li><li>Benin</li><li>Sierra Leone</li><li>Ghana</li><li>Guinea-Bissau</li><li>Senegal</li><li>Gambia</li><li>Niger</li><li>Mali</li><li>Burkina Faso</li></ul>
 (9) Central Africa (Congo);<ul><li>Congo</li><li>Angola</li><li>Gabon</li><li>Democratic Republic of the Congo</li><li>Sao Tome and Principe</li><li>Equatorial Guinea</li><li>Chad</li><li>Central African Republic</li><li>Cameroon</li></ul>
