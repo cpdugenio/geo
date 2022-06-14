@@ -9,6 +9,7 @@ ANKI_GROUPING_TAG_IGNORE = (
     'Eurasia',
     'Island',
     'Transcontinental',
+    'North America',
 )
 
 EXPORT_FILE = os.path.join(
