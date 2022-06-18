@@ -1,3 +1,9 @@
+(14) Oceania;<ul><li>Samoa</li><li>Tonga</li><li>Tuvalu</li><li>Marshall Islands</li><li>Palau</li><li>Kiribati</li><li>Micronesia</li><li>Vanuatu</li><li>Fiji</li><li>Papua New Guinea</li><li>Nauru</li><li>Solomon Islands</li><li>New Zealand</li><li>Australia</li></ul>
+(3) Polynesia;<ul><li>Samoa</li><li>Tonga</li><li>Tuvalu</li></ul>
+(4) Micronesia;<ul><li>Marshall Islands</li><li>Palau</li><li>Kiribati</li><li>Micronesia</li></ul>
+(5) Melanesia;<ul><li>Vanuatu</li><li>Fiji</li><li>Papua New Guinea</li><li>Nauru</li><li>Solomon Islands</li></ul>
+(13) Caribbean Nation;<ul><li>Trinidad and Tobago</li><li>Grenada</li><li>Barbados</li><li>Saint Vincent and the Grenadines</li><li>Dominica</li><li>Saint Lucia</li><li>Antigua and Barbuda</li><li>Saint Kitts and Nevis</li><li>Cuba</li><li>Dominican Republic</li><li>Jamaica</li><li>Haiti</li><li>Bahamas</li></ul>
+(3) East African Island;<ul><li>Mauritius</li><li>Seychelles</li><li>Comoros</li></ul>
 (13) South America;<ul><li>Uruguay</li><li>Peru</li><li>Paraguay</li><li>Argentina</li><li>Chile</li><li>Bolivia</li><li>Brazil</li><li>Ecuador</li><li>Venezuela</li><li>Guyana</li><li>Suriname</li><li>French Guiana</li><li>Colombia</li></ul>
 (3) The Guyanas;<ul><li>Guyana</li><li>Suriname</li><li>French Guiana</li></ul>
 (7) Central America;<ul><li>Belize</li><li>Costa Rica</li><li>Panama</li><li>Guatemala</li><li>Honduras</li><li>Nicaragua</li><li>El Salvador</li></ul>
